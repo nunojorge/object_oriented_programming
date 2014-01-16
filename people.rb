@@ -6,6 +6,9 @@ class Person
 		@name = name
 	end
 
+	def greeting
+		puts "Hi, my name is #{name}"
+	end
 end
 
 class Student < Person
@@ -21,3 +24,10 @@ class Instructor < Person
 		puts "Everything in Ruby is an Object"
 	end
 end
+
+nuno = Person.new("Nuno")
+nuno.greeting
+
+jeff  = Instructor.new("Jeff")
+jeff.greeting
+
