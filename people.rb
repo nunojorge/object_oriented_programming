@@ -25,9 +25,5 @@ class Instructor < Person
 	end
 end
 
-nuno = Person.new("Nuno")
-nuno.greeting
-
-jeff  = Instructor.new("Jeff")
-jeff.greeting
-
+Chris = Instructor.new("Chris")
+Chris.greeting
